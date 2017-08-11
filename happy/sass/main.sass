@@ -1,0 +1,625 @@
+body
+	background-color: #F1F5F8
+	color: #F3AD29
+section, header, footer
+  max-width: 1920px
+  margin: 0 auto
+.top-header
+	padding-bottom: 30px
+	position: relative
+	z-index: 2
+	background-color: #fff
+	img 
+		display: flex
+		max-width: 650px
+		margin: 5px auto
+	h1
+		text-align: center
+		margin: 0
+		padding: 0
+		margin-top: 10px
+		font-family: 'Gloria Hallelujah', cursive
+		font-size: 2.2em
+.top-header:after
+  content: ""
+  position: absolute
+  width: 100%
+  height: 108px
+  background: url(../img/svg/bottom-wave.svg) center bottom no-repeat
+  z-index: 2
+.top-header:before
+  content: ""
+  position: absolute
+  width: 100%
+  height: 200px
+  background: url(../img/svg/123.svg) center center no-repeat
+  background-size: conduct
+  z-index: 0
+.video-bg 
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  right: 0
+  margin: auto
+  -o-object-fit: cover
+  object-fit: cover
+  background: url(../img/photofon.jpg)
+  background-size: cover
+  z-index: 1
+
+
+.big-video__mobile-bg 
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  right: 0
+  margin: auto
+  background: url(../img/photofon.jpg) center top no-repeat
+  background-size: cover
+  z-index: -5
+
+
+.big-video 
+  position: relative
+  padding-top: 160px
+  overflow: hidden
+
+.big-video:after 
+  content: ""
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: rgba(243,173,41,.5)
+  z-index: 1
+.flags-wrap 
+    position: absolute
+    width: 100%
+    top: 0
+    z-index: 1
+.flags-wrap:before 
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    width: 503px
+    height: 383px
+    background: url(../img/purple-flags.png) center center no-repeat
+    background-size: cover
+.flags-wrap:after 
+    content: ""
+    position: absolute
+    right: 0
+    top: 0
+    width: 503px
+    height: 383px
+    background: url(../img/purple-flags.png) center center no-repeat
+    -webkit-transform: rotate(71deg)
+    -ms-transform: rotate(71deg)
+    transform: rotate(71deg)
+    background-size: cover
+.big-video__content
+	position: relative
+	text-align: center
+	z-index: 10
+	h2
+		padding: 0
+		margin: 0
+		margin-top: -40px
+		color: #ff0000
+		font-size: 6em
+		text-transform: uppercase
+		font-family: 'Indie Flower', cursive
+		z-index: 100
+	p
+		padding: 0
+		margin: 0
+		font-size: 2em
+		padding-top: 40px
+		color: #ff0000
+		font-family: 'Indie Flower', cursive
+.timer
+	padding-top: 10px
+	padding-bottom: 60px
+.grass
+	display: flex
+	margin: 0 auto
+	position: relative
+	margin-top: -220px
+	z-index: 1
+	width: 100%
+	max-width: 1920px
+.button
+	margin-bottom: 100px
+	padding: 0
+	text-align: center
+.btn--yellow 
+    width: 460px
+    height: 108px
+    font-size: 50px
+    line-height: 108px
+    span 
+    	position: relative
+    	z-index: 3
+    	text-shadow: 1px 2px 1px #ca9924
+.btn--yellow:before 
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: url(../img/svg/btn-yellow-top.svg) center center no-repeat
+    z-index: 2
+    transition: all .3s ease
+.btn--yellow:after 
+    content: ""
+    position: absolute
+    left: 0
+    right: 0
+    top: 20px
+    width: 440px
+    height: 90px
+    margin: auto
+    border-radius: 28px
+    background: #ca9924
+    z-index: 1
+    transition: all .3s ease
+.btn 
+    position: relative
+    display: inline-block
+    color: #FFF
+    font-weight: bold
+    font-family: "Open Sans",sans-serif
+    text-align: center
+    text-transform: uppercase
+    vertical-align: middle
+    border: none
+    cursor: pointer
+    background-color: transparent
+    -webkit-transition: all .3s ease
+    -o-transition: all .3s ease
+    transition: all .3s ease
+    outline: none
+    z-index: 10
+.btn:hover,
+.btn:focus 
+  transform: translateY(-5px)
+.btn:active 
+  transform: translateY(2px)
+
+.btn--yellow:hover:after,
+.btn--yellow:focus:after 
+  transform: translateY(5px)
+.btn--yellow:active:after 
+  transform: translateY(-1px)
+
+.reasons
+	text-align: center
+h3
+	padding: 25px
+	font-size: 4em
+	text-transform: uppercase
+	font-family: 'Indie Flower', cursive
+	background: url(../img/1.png) center center no-repeat
+	background-size: contain
+
+
+.mikki
+	padding: 0
+	margin: 0
+	height: 400px
+	background: url(../img/mikki.png) center center no-repeat
+	background-size: contain
+.list
+	text-align: left
+	background: url(../img/svg/321.svg) center center no-repeat
+	background-size: cover
+	ul
+		list-style-type: none
+	li
+		line-height: 1.5em
+		font-size: 2.7em
+		font-family: 'Indie Flower', cursive
+
+.characters
+	text-align: center
+	position: relative
+.owl-carousel
+	background-color: #FFF
+.owl-prev, .owl-next
+	position: absolute
+	top: 50%
+	width: 50px
+	height: 50px
+	background-color: #777
+	color: 
+.owl-prev
+	background: url(../img/svg/arrow-left.svg) center center no-repeat
+.owl-next
+	right: 0
+	background: url(../img/svg/arrow-right.svg) center center no-repeat
+.reviews
+	text-align: center
+	padding-bottom: 60px
+.conduct
+	margin-bottom: 100px
+	text-align: center
+	h4
+		color: #ec7c26
+		font-size: 2em
+		text-transform: uppercase
+		font-family: 'Indie Flower', cursive
+	img
+		width: 250px
+	p
+		color: #777
+		font-size: 1.3em
+	.btnwrap
+		margin-left: -30px
+		transform: scale(.6)
+.container_top
+	img
+		margin-top: -40px
+.conduct_box
+	margin-top: -25px
+.holiday
+	text-align: center
+.big-shar 
+  padding-top: 100px
+  height: 2188px
+  background: url(../img/bg-big-shar.jpg) top center no-repeat
+
+.big-shar__items 
+  position: relative
+  width: 940px
+  margin: 280px auto 0
+.big-shar__item 
+  position: absolute
+  width: 250px
+  text-align: center
+.big-shar__item p 
+  padding-top: 80px
+  font-size: 1.2em
+.big-shar__item .mask-circle-white:after 
+  display: none
+.big-shar__item-img 
+  position: relative
+.big-shar__item-img .circle-orange-mini 
+  display: none
+  background: #ffc438
+.big-shar__item-icon-mobile 
+  width: 64px
+  height: 77px
+  fill: #fff
+  fill-rule: evenodd
+.big-shar__item-icon-man 
+  width: 95px
+  height: 84px
+  fill: #fff
+  fill-rule: evenodd
+.big-shar__item-icon-pero 
+  width: 74px
+  height: 90px
+  fill: #fff
+  fill-rule: evenodd
+.big-shar__item-icon-like 
+  width: 75px
+  height: 84px
+  fill: #fff
+  fill-rule: evenodd
+.big-shar__item-icon-baloons 
+  width: 78px
+  height: 87px
+  fill: #fff
+  fill-rule: evenodd
+.big-shar__item-icon-hat 
+  width: 84px
+  height: 84px
+  fill: #fff
+  fill-rule: evenodd
+.big-shar__item--1 
+  top: 40px
+  left: 15px
+.big-shar__item--2 
+  top: 315px
+  right: 15px
+.big-shar__item--3 
+  top: 570px
+  left: 15px
+.big-shar__item--4 
+  top: 840px
+  right: 25px
+.big-shar__item--5 
+  top: 1110px
+  left: 20px
+.big-shar__item--6 
+  top: 1410px
+  left: 350px
+footer
+	position: relative
+	height: 300px
+	background-color: #FFC438
+	p
+		margin-top: 130px
+		color: #B67209
+		font-size: 1.3em
+footer:after 
+  content: ""
+  position: absolute
+  bottom: 200px
+  width: 100%
+  height: 119px
+  background: url(../img/svg/bottom-big-wave-purple-light.svg) center top no-repeat
+  z-index: 5
+#vk_groups
+	margin-top: 60px
+
+.keys-items__one-link 
+  text-align: center
+  transition: all .3s ease
+.keys-items__one-link:hover .keys-items__one-img:before 
+  background: rgba(21, 1, 49, 0.75)
+.keys-items__one-link:hover .item-video-icon-block 
+  width: 100%
+  height: 100%
+  right: 0
+  bottom: 0
+  margin: auto
+  background: url(../img/svg/icon-video-play.svg) center center no-repeat, transparent
+  background-size: 70px
+.keys-items__one-img:before 
+  content: ''
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: transparent
+  transition: all 0.3s ease
+.keys-items .flickity-prev-next-button 
+  top: 48%
+  background-color: #F7FAFC
+.item-video-icon 
+  position: relative
+  display: block
+.item-video-icon:before 
+  content: ""
+  position: absolute
+  bottom: 0
+  right: 0
+  width: 24px
+  height: 24px
+  padding: 5px
+  border-radius: 50%
+  background: url(../img/svg/icon-video-play.svg) center center, #ffc438
+  background-size: 100%
+.item-video-icon-block 
+  position: absolute
+  bottom: 25px
+  right: 25px
+  width: 50px
+  height: 50px
+  padding: 5px
+  border-radius: 50%
+  background: url(../img/svg/icon-video-play.svg) center center no-repeat, #ffc438
+  background-size: 23px
+  z-index: 2
+  transition: all 0.3s ease
+.mask-circle-gray 
+    position: relative
+.mask-circle-gray:after 
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: url(../img/svg/mask-circle-gray.svg) center center no-repeat
+    background-size: 100%
+    transform: scale(1.005)
+    z-index: 1
+.keys-items__one img 
+    display: block
+.keys-items__one 
+    display: block
+    width: 280px
+    margin-right: 5%
+.video_reviews 
+	img
+		width: 90%
+	p
+		top: 300px
+		font-size: 2em
+		font-family: 'Indie Flower', cursive
+
+.modal_div, #modal_form
+	width: auto
+	height: auto
+	position: fixed
+	left: 47% 
+	margin-top: -150px
+	margin-left: -150px
+	display: none 
+	opacity: 0
+	z-index: 100
+	padding: 20px 10px
+
+#overlay 
+	z-index: 50
+	position: fixed 
+	background-color: #000 
+	opacity: 0.8 
+	-moz-opacity: 0.8
+	filter: alpha(opacity=80)
+	width: 100%
+	height: 100%
+	top: 0 
+	left: 0
+	cursor: pointer
+	display: none 
+.agmodal 
+  display: inline-block
+
+
+.agmodal__wrapper:focus 
+  outline-width: 0
+
+
+.agmodal__wrapper--visible 
+  pointer-events: auto
+  opacity: 1
+
+
+.agmodal__wrapper
+  box-sizing: border-box
+
+
+.agmodal__close 
+  position: absolute
+  width: 34px
+  height: 34px
+  cursor: pointer
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  text-decoration: none
+  border-bottom: none !important
+  top: 35px
+  right: 7px
+  border-radius: 50%
+  background: #FFC438
+
+
+.agmodal__close:hover 
+  background-color: #FF8538
+
+
+.agmodal__close:before,
+.agmodal__close:after 
+  content: ''
+  position: absolute
+  top: 50%
+  left: 0
+  right: 0
+  width: 20px
+  height: 3px
+  margin: auto
+  background-color: #fff
+  transition: all .3s ease
+
+
+.agmodal__close:hover:before,
+.agmodal__close:hover:after 
+  background-color: #fff
+
+
+.agmodal__close:before 
+  transform: rotate(-45deg)
+
+
+.agmodal__close:after 
+  transform: rotate(45deg)
+.form 
+    position: relative
+    width: 386px
+    height: 569px
+    padding-top: 35px
+    padding-left: 40px
+    padding-right: 40px
+    background: url(../img/svg/bg-form-yellow.svg) center center no-repeat
+    background-size: cover
+.form__title 
+    margin-bottom: 0
+    text-align: center
+    text-shadow: 1px 2px 1px #f68500
+    color: #FFF
+    line-height: 1.25
+    font-size: 32px
+    font-family: 'Indie Flower', cursive
+.form__input-text:focus 
+  border: 3px solid #60c545
+  outline: none
+.agmodal .form__descr 
+    margin-bottom: 15px
+
+.form__descr 
+    margin-top: 10px
+    margin-bottom: 0
+    text-align: center
+.form form 
+    position: relative
+    padding-top: 10px
+.form__input-text--name 
+    background-image: url(../img/svg/icon-person-name.svg)
+    background-repeat: no-repeat
+    background-position: 25px 50%
+.form__input-text 
+    width: 100%
+    padding: 16px 20px 16px 70px
+    margin-top: 9px
+    font-size: 18px
+    font-family: "Open Sans",sans-serif
+    border: 3px solid #FEF064
+    border-radius: 50px
+    -webkit-box-shadow: 0 2px 5px 0 #D8B10F inset
+    box-shadow: 0 2px 5px 0 #D8B10F inset
+    background-color: #FFF
+    transition: all .3s ease
+.form__input-text--phone 
+    background-image: url(../img/svg/icon-telephone.svg)
+    background-repeat: no-repeat
+    background-position: 25px 50%
+.form__input-text--email 
+    background-image: url(../img/svg/icon-email.svg);
+    background-repeat: no-repeat
+    background-position: 25px 50%
+.form__btn 
+		margin-top: 40px
+    display: block
+    margin-top: 14px
+    margin-left: auto
+    margin-right: auto
+    border: none
+    background: transparent
+.btn--green 
+    width: 297px
+    height: 73px
+    font-size: 21px
+    line-height: 73px
+.btn--green:before 
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: url(../img/svg/btn-green-top.svg) center center no-repeat
+    z-index: 2
+    background-size: 100%
+    transition: all .3s ease
+.btn--green span 
+    position: relative
+    z-index: 3
+    text-shadow: 1px 2px 1px #699a0d
+.btn--green:after 
+    content: ""
+    position: absolute
+    left: 0
+    right: 0
+    top: 14px
+    width: 98%
+    height: 60px
+    margin: auto
+    border-radius: 30px
+    background: #65960a
+    z-index: 1
+    transition: all .3s ease
+.video_testimonial
+	position: fixed
+	top: 150px
+	left: 350px

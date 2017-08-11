@@ -1,0 +1,202 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    .video-bg {
+        display: none;
+    }
+    .flags-wrap {
+        display: none;
+    }
+}
+    
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+
+}
+    
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+	.big-shar {
+    height: auto;
+    padding-top: 80px;
+    -webkit-box-shadow: 0 110px 75px -17px #dedede inset;
+    box-shadow: 0 110px 75px -17px #dedede inset;
+    background: #fff;
+  }
+  .big-shar__items {
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .big-shar__item {
+    position: relative;
+    margin: 0 10px 20px;
+    background-size: cover;
+  }
+  .big-shar__item p {
+    padding-top: 0;
+  }
+  .big-shar__item .mask-circle-white:after {
+    display: block;
+  }
+  .big-shar__item-img {
+    width: 250px;
+    height: 250px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: url("../img/bg-purple-mask.jpg") center center no-repeat;
+  }
+  .big-shar__item-img .circle-orange-mini {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    line-height: 64px;
+    font-family: "MountRegular",serif;
+    font-size: 55px;
+    color: #0d004c;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .big-shar__item--1 {
+    top: auto;
+    left: auto;
+  }
+  .big-shar__item--2 {
+    top: auto;
+    right: auto;
+  }
+  .big-shar__item--3 {
+    top: auto;
+    left: auto;
+  }
+  .big-shar__item--4 {
+    top: auto;
+    right: auto;
+  }
+  .big-shar__item--5 {
+    top: auto;
+    left: auto;
+  }
+  .big-shar__item--6 {
+    top: auto;
+    left: auto;
+  }
+  .mask-circle-white:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/svg/mask-circle-white.svg") center center no-repeat;
+    background-size: 100%;
+    -webkit-transform: scale(1.005);
+    -ms-transform: scale(1.005);
+    transform: scale(1.005);
+    z-index: 1;
+}
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+  h3 {
+  	font-size: 1.7em;
+  }
+    .top-header img {
+  	width: 400px;
+  }
+	
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+		
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
+	.grass {
+	margin-top: -70px;
+}
+	.list li {
+		font-size: 1.8em;}
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+	.grass {
+	margin-top: -110px;
+}
+	h3 {
+  	font-size: 1.7em;
+  }
+
+}
+
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+	.list li {
+		font-size: 2.7em;}
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+  .grass {
+	margin-top: -220px;
+}
+	h3 {
+  	font-size: 4em;
+  }
+}
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
